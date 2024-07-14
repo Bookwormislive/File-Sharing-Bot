@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002170049626"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "2"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "HELLO THERE {mention} ✌\n\nI AM A FILE SHARING BOT USED AND DEVELOPED BY  InfoHub Networks. 🍂\n\nI AM NOT DESIGNED TO RECEIVE DIRECT TEXT MESSAGES HERE. 🍂\n\nTHANKS FOR USING OUR SERVICES. 🍂")
+START_MSG = os.environ.get("START_MESSAGE", "𝐻𝐸𝐿𝐿𝒪 𝒯𝐻𝐸𝑅𝐸 {mention} ✌\n\n𝐼 𝒜𝑀 𝒜 𝐹𝐼𝐿𝐸 𝒮𝐻𝒜𝑅𝐼𝒩𝒢 𝐵𝒪𝒯 𝒰𝒮𝐸𝒟 𝒜𝒩𝒟 𝒟𝐸𝒱𝐸𝐿𝒪𝒫𝐸𝒟 𝐵𝒴 InfoHub Networks. 🍂\n\n𝐼 𝒜𝑀 𝒩𝒪𝒯 𝒟𝐸𝒮𝐼𝒢𝒩𝐸𝒟 𝒯𝒪 𝑅𝐸𝒞𝐸𝐼𝒱𝐸 𝒟𝐼𝑅𝐸𝒞𝒯 𝒯𝐸𝒳𝒯 𝑀𝐸𝒮𝒮𝒜𝒢𝐸𝒮 𝐻𝐸𝑅𝐸. 🍂\n\n𝒯𝐻𝒜𝒩𝒦𝒮 𝐹𝒪𝑅 𝒰𝒮𝐼𝒩𝒢 𝒪𝒰𝑅 𝒮𝐸𝑅𝒱𝐼𝒞𝐸𝒮. 🍂")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "6011680723 1524169222").split()):
@@ -46,7 +46,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "SORRY TO INTERRUPT YOU THERE, BUT TO CONTINUE FURTHER, YOU NEED TO JOIN OUR CHANNEL(S) FIRST 🫶")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝒮𝒪𝑅𝑅𝒴 𝒯𝒪 𝐼𝒩𝒯𝐸𝑅𝑅𝒰𝒫𝒯 𝒴𝒪𝒰 𝒯𝐻𝐸𝑅𝐸, 𝐵𝒰𝒯 𝒯𝒪 𝒞𝒪𝒩𝒯𝐼𝒩𝒰𝐸 𝐹𝒰𝑅𝒯𝐻𝐸𝑅, 𝒴𝒪𝒰 𝒩𝐸𝐸𝒟 𝒯𝒪 𝒥𝒪𝐼𝒩 𝒪𝒰𝑅 𝒞𝐻𝒜𝒩𝒩𝐸𝐿 𝐹𝐼𝑅𝒮𝒯 🫶")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
@@ -58,7 +58,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "💀 WHY IN THE WORLD WILL YOU MESSAGE ME?? I'M JUST A FILE SHARE BOT WORKING FOR InfoHub Networks!!"
+USER_REPLY_TEXT = "💀 𝒲𝐻𝒴 𝐼𝒩 𝒯𝐻𝐸 𝒲𝒪𝑅𝐿𝒟 𝒲𝐼𝐿𝐿 𝒴𝒪𝒰 𝑀𝐸𝒮𝒮𝒜𝒢𝐸 𝑀𝐸?? 𝐼'𝑀 𝒥𝒰𝒮𝒯 𝒜 𝐹𝐼𝐿𝐸 𝒮𝐻𝒜𝑅𝐸 𝐵𝒪𝒯 𝒲𝒪𝑅𝒦𝐼𝒩𝒢 𝐹𝒪𝑅 InfoHub Networks!!"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(6011680723)
